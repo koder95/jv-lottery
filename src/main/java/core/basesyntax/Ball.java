@@ -7,7 +7,7 @@ public class Ball {
     
     public Ball(String color, int number) {
         this.color = color;
-        this.number = number > 100? 100 : number < 0? 0 : number;
+        this.number = number > 100 ? 100 : number < 0 ? 0 : number;
     }
 
     @Override

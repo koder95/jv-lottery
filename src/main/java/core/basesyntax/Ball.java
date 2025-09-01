@@ -7,7 +7,7 @@ public class Ball {
     
     public Ball(Color color, int number) {
         this.color = color;
-        this.number = number > 100 ? 100 : Math.max(number, 0);
+        this.number = number;
     }
 
     @Override

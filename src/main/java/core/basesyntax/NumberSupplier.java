@@ -1,5 +1,7 @@
 package core.basesyntax;
 
+import java.util.Random;
+
 public class NumberSupplier {
 
     private final Random random = new Random();
